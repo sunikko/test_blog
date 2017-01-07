@@ -1,13 +1,13 @@
+web programming school first project
 
- web programming school first project
-#fitst blog
+## fitst blog
 
-#add more
-#what to do next
+## add more 목표
+ # what to do next
 
-#설치할 패키지
+## 설치할 패키지
  # 1. 일단 Django를 설치하세요
  
 ```
-$ ./python_packages.sh
+$ pip install -r requirements.txt
 ```
