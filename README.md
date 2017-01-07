@@ -7,4 +7,7 @@
 
 #설치할 패키지
  # 1. 일단 Django를 설치하세요
- pip install django
+ 
+```
+$ ./python_packages.sh
+```
