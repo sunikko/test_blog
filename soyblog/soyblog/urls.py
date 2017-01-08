@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from django.contrib import admin
 
-from soyblog.controller import home,room
+from soyblog.views import home,room
 
 
 urlpatterns = [
