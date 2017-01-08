@@ -8,5 +8,7 @@ def home(request):
 def room(request, room_id):
     url = "http://api.zigbang.com/v1/items?detail=true&item_id="+room_id
     response = requests.get(url);
-    return HttpResponse(response.content)
+    return HttpResponse(response.content,
+    content_type = "application/json",
+    )
 
